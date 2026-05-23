@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains the official implementation, experiments, and dataset associated with the paper:
 
@@ -36,7 +36,7 @@ The results demonstrate that lightweight YOLO models provide the best trade-off 
 
 ---
 
-# 👨‍🔬 Authors
+# Authors
 
 - **Marcello Henrique da Costa Grec**
 - **Charles Henrique Porto Ferreira**
@@ -44,7 +44,7 @@ The results demonstrate that lightweight YOLO models provide the best trade-off 
 
 ---
 
-# 📄 Paper Abstract
+# Paper Abstract
 
 Vehicle damage during transportation and logistics operations remains a critical issue, leading to increased operational costs, insurance claims, and delays in product availability.
 
@@ -58,7 +58,7 @@ The dataset reflects realistic inspection conditions and includes benchmark eval
 
 ---
 
-# 🧠 Key Contributions
+# Key Contributions
 
 - ✅ Publicly available vehicle damage dataset
 - ✅ Real-world inspection conditions
@@ -69,9 +69,9 @@ The dataset reflects realistic inspection conditions and includes benchmark eval
 
 ---
 
-# 📦 Dataset Information
+# Dataset Information
 
-## 📊 Dataset Statistics
+## Dataset Statistics
 
 | Class | Images | Objects | Avg. per Image | Avg. Area |
 |---|---|---|---|---|
@@ -90,7 +90,7 @@ The dataset contains:
 
 ---
 
-# 🖼️ Damage Categories
+# Damage Categories
 
 The dataset contains three vehicle damage categories:
 
@@ -103,26 +103,7 @@ The dataset contains three vehicle damage categories:
 
 ---
 
-# 🔍 Evaluated Models
-
-The following object detection models were benchmarked:
-
-| Model |
-|---|
-| YOLOv8n |
-| YOLOv8s |
-| YOLOv10n |
-| YOLOv10s |
-| YOLOv10m |
-| YOLO11n |
-| YOLO11s |
-| RT-DETR |
-
-All models were trained for **100 epochs** using the same experimental setup. 
-
----
-
-# 📈 Benchmark Results
+# Benchmark Results
 
 ## Detection Performance
 
@@ -140,20 +121,8 @@ All models were trained for **100 epochs** using the same experimental setup.
 
 ---
 
-# ⚡ Computational Efficiency
 
-| Model | Parameters | GFLOPs | Training Time |
-|---|---|---|---|
-| YOLOv8n | 3M | 8.2 | 0.5h |
-| YOLOv8s | 11M | 28.7 | 0.9h |
-| YOLO11s | 9.4M | 21.5 | 0.9h |
-| RT-DETR | 32.8M | 136 | 4.2h |
-
-Lightweight YOLO architectures achieved the best balance between performance and computational cost. 
-
----
-
-# 🧪 Experimental Setup
+# Experimental Setup
 
 - **GPU:** NVIDIA RTX 4050
 - **CPU:** Intel Core i7
@@ -163,16 +132,3 @@ Lightweight YOLO architectures achieved the best balance between performance and
 - **Learning Rate:** 0.001429 (YOLO models)
 
 
----
-
-# 📁 Repository Structure
-
-```bash
-├── dataset/
-├── models/
-├── training/
-├── inference/
-├── notebooks/
-├── results/
-├── images/
-└── README.md

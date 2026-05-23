@@ -60,12 +60,12 @@ The dataset reflects realistic inspection conditions and includes benchmark eval
 
 # Key Contributions
 
-- ✅ Publicly available vehicle damage dataset
-- ✅ Real-world inspection conditions
-- ✅ Benchmark evaluation of modern object detectors
-- ✅ Computational efficiency analysis
-- ✅ Privacy-preserving anonymization process
-- ✅ Reproducible experiments
+- Publicly available vehicle damage dataset
+- Real-world inspection conditions
+- Benchmark evaluation of modern object detectors
+- Computational efficiency analysis
+- Privacy-preserving anonymization process
+- Reproducible experiments
 
 ---
 

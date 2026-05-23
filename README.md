@@ -131,4 +131,13 @@ The dataset contains three vehicle damage categories:
 - **Training:** 100 epochs
 - **Learning Rate:** 0.001429 (YOLO models)
 
+# Citation
+
+```bibtex
+@article{grec2026vehicle,
+  title={A Novel Dataset for Vehicle Damage Detection with Benchmark Evaluation of Deep Learning Models},
+  author={Grec, Marcello Henrique da Costa Grec and Ferreira, Charles Henrique Porto and Perico, Danilo Hernani},
+  journal={IEEE Latin America Transactions},
+  year={2026}
+}
 

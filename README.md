@@ -32,7 +32,7 @@ Additionally, this work provides a benchmark evaluation of several state-of-the-
 - YOLO11
 - RT-DETR
 
-The results demonstrate that lightweight YOLO models provide the best trade-off between detection accuracy and computational efficiency. :contentReference[oaicite:0]{index=0}
+The results demonstrate that lightweight YOLO models provide the best trade-off between detection accuracy and computational efficiency. 
 
 ---
 
@@ -54,7 +54,7 @@ This work introduces a novel publicly available dataset for vehicle damage detec
 - Dented
 - Broken
 
-The dataset reflects realistic inspection conditions and includes benchmark evaluations using multiple deep learning object detection models. Experimental results show that lightweight YOLO-based models achieve the best balance between accuracy and computational efficiency, reaching **mAP@0.5 up to 0.64**. :contentReference[oaicite:1]{index=1}
+The dataset reflects realistic inspection conditions and includes benchmark evaluations using multiple deep learning object detection models. Experimental results show that lightweight YOLO-based models achieve the best balance between accuracy and computational efficiency, reaching **mAP@0.5 up to 0.64**. 
 
 ---
 
@@ -87,7 +87,6 @@ The dataset contains:
 - Real-world logistics scenarios
 - RGB images with diverse resolutions
 
-:contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -101,7 +100,6 @@ The dataset contains three vehicle damage categories:
 | Dented | Structural deformation |
 | Broken | Detached or missing components |
 
-:contentReference[oaicite:3]{index=3}
 
 ---
 
@@ -120,7 +118,7 @@ The following object detection models were benchmarked:
 | YOLO11s |
 | RT-DETR |
 
-All models were trained for **100 epochs** using the same experimental setup. :contentReference[oaicite:4]{index=4}
+All models were trained for **100 epochs** using the same experimental setup. 
 
 ---
 
@@ -139,7 +137,6 @@ All models were trained for **100 epochs** using the same experimental setup. :c
 | YOLO11s | 0.74 | 0.54 | 0.63 | **0.64** |
 | RT-DETR | 0.84 | 0.54 | 0.64 | 0.62 |
 
-:contentReference[oaicite:5]{index=5}
 
 ---
 
@@ -152,7 +149,7 @@ All models were trained for **100 epochs** using the same experimental setup. :c
 | YOLO11s | 9.4M | 21.5 | 0.9h |
 | RT-DETR | 32.8M | 136 | 4.2h |
 
-Lightweight YOLO architectures achieved the best balance between performance and computational cost. :contentReference[oaicite:6]{index=6}
+Lightweight YOLO architectures achieved the best balance between performance and computational cost. 
 
 ---
 
@@ -165,7 +162,6 @@ Lightweight YOLO architectures achieved the best balance between performance and
 - **Training:** 100 epochs
 - **Learning Rate:** 0.001429 (YOLO models)
 
-:contentReference[oaicite:7]{index=7}
 
 ---
 

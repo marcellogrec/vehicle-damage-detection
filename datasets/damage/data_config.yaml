@@ -1,0 +1,8 @@
+colors:
+- [74, 144, 226]
+- [245, 166, 35]
+- [235, 25, 50]
+names: [Scratched, Dented, Broken]
+nc: 3
+train: ../damage/images/train
+val: ../damage/images/val

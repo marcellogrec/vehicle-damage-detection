@@ -4,8 +4,6 @@
 
 [![IEEE LATAM](https://img.shields.io/badge/IEEE-LATAM-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.10+-green)]()
-[![YOLO](https://img.shields.io/badge/YOLO-v8%20%7C%20v10%20%7C%20v11-orange)]()
-[![RT-DETR](https://img.shields.io/badge/RT--DETR-Transformer-red)]()
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)]()
 
 ---
@@ -24,13 +22,6 @@ The dataset includes challenging conditions such as:
 - Perspective distortion
 - Class imbalance
 - High intra-class variability
-
-Additionally, this work provides a benchmark evaluation of several state-of-the-art object detection models, including:
-
-- YOLOv8
-- YOLOv10
-- YOLO11
-- RT-DETR
 
 The results demonstrate that lightweight YOLO models provide the best trade-off between detection accuracy and computational efficiency. 
 

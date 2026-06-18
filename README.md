@@ -54,7 +54,7 @@ This work introduces a novel publicly available dataset for vehicle damage detec
 - Dented
 - Broken
 
-The dataset reflects realistic inspection conditions and includes benchmark evaluations using multiple deep learning object detection models. Experimental results show that lightweight YOLO-based models achieve the best balance between accuracy and computational efficiency, reaching **mAP@0.5 up to 0.64**. 
+The dataset reflects realistic inspection conditions and includes benchmark evaluations using multiple deep learning object detection models.
 
 ---
 
@@ -101,35 +101,6 @@ The dataset contains three vehicle damage categories:
 | Broken | Detached or missing components |
 
 
----
-
-# Benchmark Results
-
-## Detection Performance
-
-| Model | Precision | Recall | F1-score | mAP@0.5 |
-|---|---|---|---|---|
-| YOLOv8n | 0.85 | 0.59 | 0.67 | 0.62 |
-| YOLOv8s | 0.82 | 0.62 | 0.65 | **0.64** |
-| YOLOv10n | 0.78 | 0.60 | 0.60 | 0.50 |
-| YOLOv10s | 0.85 | 0.59 | 0.64 | 0.61 |
-| YOLOv10m | 0.66 | 0.47 | 0.53 | 0.52 |
-| YOLO11n | 0.80 | 0.52 | 0.65 | 0.63 |
-| YOLO11s | 0.74 | 0.54 | 0.63 | **0.64** |
-| RT-DETR | 0.84 | 0.54 | 0.64 | 0.62 |
-
-
----
-
-
-# Experimental Setup
-
-- **GPU:** NVIDIA RTX 4050
-- **CPU:** Intel Core i7
-- **Framework:** Ultralytics
-- **Language:** Python
-- **Training:** 100 epochs
-- **Learning Rate:** 0.001429 (YOLO models)
 
 # Citation
 

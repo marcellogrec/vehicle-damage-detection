@@ -1,77 +1,54 @@
-# Vehicle Damage Detection Dataset & Benchmark
+# Vehicle Damage Detection: Dataset & Benchmark
 
-> **Vehicle damage detection: a public dataset and benchmark of deep learning models**
+Code for the paper **"Vehicle damage detection: a public dataset and benchmark of deep learning models"**
+
+**Dataset:** [Harvard Dataverse — doi:10.7910/DVN/MV5EME](https://doi.org/10.7910/DVN/MV5EME)
 
 ---
 
 ## Overview
 
-This repository contains the official implementation, experiments and dataset.
+This repository contains the code used to train and evaluate the object detectors reported in the paper.
 
-### **A Novel Dataset for Vehicle Damage Detection with Benchmark Evaluation of Deep Learning Models**
+The paper introduces a **publicly available dataset of 2,290 images** for vehicle damage detection, acquired directly from **real-world logistics and transportation operations** rather than from web image repositories. The images reflect realistic inspection conditions, including:
 
-The project introduces a **publicly available dataset** for vehicle damage detection designed to represent **real-world logistics and inspection scenarios**.  
-The dataset includes challenging conditions such as:
-
-- Small damage regions
-- Lighting variation
-- Perspective distortion
+- Small damage regions (Scratched instances occupy on average 1.29% of the image)
+- Variation in lighting, perspective, and background
+- Non-standardized capture devices and resolutions
 - Class imbalance
 - High intra-class variability
 
-The results demonstrate that lightweight YOLO models provide the best trade-off between detection accuracy and computational efficiency. 
+We benchmark **twelve YOLO detectors** (YOLOv8, v9, v10, 11, 12, and 26, in Nano/Tiny and Small configurations) using **10 random seeds per model** and statistical significance testing. We also evaluate **class-aware loss weighting** as a way to address class imbalance.
 
 ---
 
-# Authors
+## Authors
 
-- **Charles Henrique Porto Ferreira**
-- **Danilo Hernani Perico**
-- **Marcello Henrique da Costa Grec**
-
----
-
-# Key Contributions
-
-- Publicly available vehicle damage dataset
-- Real-world inspection conditions
-- Benchmark evaluation of modern object detectors
-- Computational efficiency analysis
-- Privacy-preserving anonymization process
-- Reproducible experiments
+- **Marcello Henrique da Costa Grec** (corresponding author), Centro Universitário FEI
+- **Charles Henrique Porto Ferreira**, Centro Universitário FEI
+- **Danilo Hernani Perico**, Centro Universitário FEI
 
 ---
 
-# Dataset Information
+## Dataset
 
-## Dataset Statistics
-
-| Class | Images | Objects | Avg. per Image | Avg. Area |
-|---|---|---|---|---|
-| Scratched | 1622 | 3465 | 2.14 | 2.65% |
-| Dented | 550 | 870 | 1.58 | 8.74% |
-| Broken | 383 | 524 | 1.37 | 12.46% |
-
-The dataset contains:
-
-- **2,290 annotated images**
-- Bounding box annotations
-- Multiple damages per image
-- Real-world logistics scenarios
-- RGB images with diverse resolutions
-
-
----
-
-# Damage Categories
-
-The dataset contains three vehicle damage categories:
+### Damage Categories
 
 | Class | Description |
 |---|---|
-| Scratched | Superficial paint damage |
-| Dented | Structural deformation |
-| Broken | Detached or missing components |
+| Scratched | Superficial damage confined to the paint or coating layer (scratches, scuffs), with no deformation or breach of the material |
+| Dented | Surface deformation (depressions, creases, waviness) where the part remains continuous and attached |
+| Broken | Loss of material continuity or structural integrity: cracks and tears, displaced parts, punctures, broken lamps or glass, missing components |
 
+### Statistics
 
+| Class | Images containing class | Objects | Avg. objects/image | Avg. area |
+|---|---|---|---|---|
+| Scratched | 1,623 | 3,467 | 2.14 | 1.29% |
+| Dented | 549 | 867 | 1.58 | 6.27% |
+| Broken | 384 | 525 | 1.37 | 10.19% |
+| **Total** | **2,290** | **4,859** | **2.12** | — |
 
+- Bounding-box annotations, created by a single expert annotator in Supervisely
+- An image may contain several damages, of the same class or of different classes
+- RGB images at varied resolutions (the most frequent is 1280×719)

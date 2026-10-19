@@ -1,15 +1,12 @@
 # Vehicle Damage Detection Dataset & Benchmark
 
-> **A Novel Dataset for Vehicle Damage Detection with Benchmark Evaluation of Deep Learning Models**
-
-[![IEEE LATAM](https://img.shields.io/badge/IEEE-LATAM-blue)]()
-[![Python](https://img.shields.io/badge/Python-3.10+-green)]()
+> **Vehicle damage detection: a public dataset and benchmark of deep learning models**
 
 ---
 
 ## Overview
 
-This repository contains the official implementation, experiments, and dataset associated with the paper: 10964
+This repository contains the official implementation, experiments and dataset.
 
 ### **A Novel Dataset for Vehicle Damage Detection with Benchmark Evaluation of Deep Learning Models**
 
@@ -91,14 +88,4 @@ The dataset contains three vehicle damage categories:
 | Broken | Detached or missing components |
 
 
-
-# Citation
-
-```bibtex
-@article{grec2026vehicle,
-  title={A Novel Dataset for Vehicle Damage Detection with Benchmark Evaluation of Deep Learning Models},
-  author={Grec, Marcello Henrique da Costa Grec and Ferreira, Charles Henrique Porto and Perico, Danilo Hernani},
-  journal={IEEE Latin America Transactions},
-  year={2026}
-}
 

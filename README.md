@@ -31,20 +31,6 @@ The results demonstrate that lightweight YOLO models provide the best trade-off 
 
 ---
 
-# Paper Abstract
-
-Vehicle damage during transportation and logistics operations remains a critical issue, leading to increased operational costs, insurance claims, and delays in product availability.
-
-This work introduces a novel publicly available dataset for vehicle damage detection comprising **2,290 annotated images** across three damage categories:
-
-- Scratched
-- Dented
-- Broken
-
-The dataset reflects realistic inspection conditions and includes benchmark evaluations using multiple deep learning object detection models.
-
----
-
 # Key Contributions
 
 - Publicly available vehicle damage dataset

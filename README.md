@@ -27,7 +27,7 @@ The results demonstrate that lightweight YOLO models provide the best trade-off 
 
 - **Marcello Henrique da Costa Grec**
 - **Charles Henrique Porto Ferreira**
-- **Danilo Hernani Perico** *(Member, IEEE)*
+- **Danilo Hernani Perico**
 
 ---
 

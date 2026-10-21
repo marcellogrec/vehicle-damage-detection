@@ -2,7 +2,7 @@
 
 Code for the paper **"Vehicle damage detection: a public dataset and benchmark of deep learning models"**
 
-**Dataset:** [Harvard Dataverse — doi:10.7910/DVN/MV5EME](https://doi.org/10.7910/DVN/MV5EME)
+**Dataset:** [Harvard Dataverse - doi:10.7910/DVN/MV5EME](https://doi.org/10.7910/DVN/MV5EME)
 
 ---
 
@@ -47,7 +47,6 @@ We benchmark **twelve YOLO detectors** (YOLOv8, v9, v10, 11, 12, and 26, in Nano
 | Scratched | 1,623 | 3,467 | 2.14 | 1.29% |
 | Dented | 549 | 867 | 1.58 | 6.27% |
 | Broken | 384 | 525 | 1.37 | 10.19% |
-| **Total** | **2,290** | **4,859** | **2.12** | — |
 
 - Bounding-box annotations, created by a single expert annotator in Supervisely
 - An image may contain several damages, of the same class or of different classes

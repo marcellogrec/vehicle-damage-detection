@@ -20,6 +20,7 @@ def parse_args():
     p.add_argument("--cache",  type=str,   default=True)
     p.add_argument("--amp",  type=str,   default=True)
     p.add_argument("--seed",  type=int,   default=0)
+    p.add_argument("--cls_pw",  type=float, default=0.0)
     return p.parse_args()
 
 def print_metrics(r, split: str):
@@ -83,7 +84,8 @@ def main():
         resume   = args.resume,
         amp      = args.amp,
         cache    = args.cache, 
-        seed     = args.seed
+        seed     = args.seed,
+        cls_pw   = args.cls_pw,
     )
 
     # Test with best weights
